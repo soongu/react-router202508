@@ -108,4 +108,14 @@ export const posts = [
     author: '최서버',
     readTime: '22분',
   },
+  {
+    id: 11,
+    title: 'React Redux 시작하기',
+    excerpt:
+      'React Redux를 사용하여 전역 상태관리를 하는 방법을 알아봅니다.',
+    date: '2024-02-04',
+    category: 'react',
+    author: '김개발',
+    readTime: '30분',
+  },
 ];
