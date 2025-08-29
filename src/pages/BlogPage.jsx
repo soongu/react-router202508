@@ -1,10 +1,14 @@
 import React from 'react';
+import MainNav from '../components/MainNav.jsx';
 
 const BlogPage = () => {
   return (
-    <h1>
-      Blog페이지입니다.
-    </h1>
+    <>
+      <MainNav />
+      <h1>
+        Blog 페이지입니다.
+      </h1>
+    </>
   );
 };
 
