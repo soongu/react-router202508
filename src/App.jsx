@@ -1,10 +1,10 @@
 import React from 'react';
+import {RouterProvider} from 'react-router-dom';
+import {router} from './routes/router-config.jsx';
 
 const App = () => {
   return (
-    <div>
-      안녕안녕~
-    </div>
+    <RouterProvider router={router} />
   );
 };
 
