@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PostCard = ({ post }) => {
   return (
     <Link
-      to={`/blog`}
+      to={`/blog/${post.id}`}
       className={styles.cardLink}>
       <div className={styles.card}>
         <h2 className={styles.title}>{post.title}</h2>

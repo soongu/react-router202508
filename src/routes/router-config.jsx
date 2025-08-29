@@ -4,6 +4,7 @@ import BlogPage from '../pages/BlogPage.jsx';
 import AboutPage from '../pages/AboutPage.jsx';
 import RootLayout from '../layouts/RootLayout.jsx';
 import ErrorPage from '../pages/ErrorPage.jsx';
+import BlogPostDetailPage from '../pages/BlogPostDetailPage.jsx';
 
 // 라우터 설정
 export const router = createBrowserRouter([
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: 'blog',
         element: <BlogPage />
+      },
+      {
+        path: 'blog/:postId',
+        element: <BlogPostDetailPage />
       },
       {
         path: 'about',
