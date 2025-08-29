@@ -1,7 +1,11 @@
 import React from 'react';
-import MainNav from '../components/MainNav.jsx';
 
 const BlogPage = () => {
+
+  // useEffect(() => {
+  //   throw new Error('알 수 없는 에러가 발생했습니다!');
+  // }, []);
+
   return (
     <>
       <h1>
