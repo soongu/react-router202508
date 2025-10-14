@@ -9,7 +9,7 @@ const IndexPage = () => {
         <p className={styles.subtitle}>React와 관련된 기술들을 공유합니다.</p>
 
         <Link to={'/blog'} className={styles.button}>
-          블로그 보러가기
+          See Blogs
         </Link>
       </div>
     </>
