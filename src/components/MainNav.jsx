@@ -13,9 +13,9 @@ const MainNav = () => {
 
   return (
     <nav className={nav}>
-      <NavLink to="/" className={activate}>Home</NavLink>
-      <NavLink to="/blog" className={activate}>Blog</NavLink>
-      <NavLink to="/about" className={activate}>About</NavLink>
+      <NavLink to="/" className={activate}>홈</NavLink>
+      <NavLink to="/blog" className={activate}>블로그</NavLink>
+      <NavLink to="/about" className={activate}>어바웃</NavLink>
     </nav>
   );
 };

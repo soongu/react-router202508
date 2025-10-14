@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "aws s3 sync ./dist s3://cicd-test-bucket9984 --profile=deploy-admin",
     "lint": "eslint .",
     "preview": "vite preview"
   },
